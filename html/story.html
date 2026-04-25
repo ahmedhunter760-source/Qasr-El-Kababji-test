@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>story</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        :root {
+
+    --red-color:#FF0000;
+    --other-red:#E62117;
+    --gold-color:#FEE135;
+    --darck-gold:#E0B75C;
+    --black-color:#0A0A0A;
+    --gray-color:#555;
+    --margin-spice:40px;
+    --padding:30px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* START navigation */
+header {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+header img {
+    width: 80px;
+    height: 80px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: var(--darck-gold);
+    text-align: center;
+    align-items: center;
+    margin-left: -250px;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+header ul li {
+    margin-right: 20px;
+    text-align: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: var(--darck-gold);
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    color: var(--red-color);
+} 
+
+/* /* end navigation * */
+
+/* start story  */
+.story-contaner {
+    height: 100vh;
+    background-color: var(--darck-gold);
+    position: relative;
+}
+
+.story-box {
+    width: 100%;
+    height: 800px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.story-box img {
+    width: 100%;
+    height: 600px;
+    margin: 0;
+}
+
+.story-text {
+    width: calc(100% - 50px);
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 10px;
+    margin: 0 25px;
+}
+
+.story-text h3 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    color: var(--darck-gold);
+    margin:0 0 20px 20px;
+}
+
+.story-text p {
+    font-size: 20px;
+    color: var(--darck-gold);
+}
+
+/* start section footer  */
+footer {
+    padding: 30px;
+    background-color:black;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.footer-links {
+    margin-bottom: 20px;
+}
+.footer-links a {
+    color: var(--darck-gold);
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+.footer-links a:hover {
+    color: var(--red-color);
+}
+.social-media {
+    margin-bottom: 20px;
+}
+.social-media a {
+    margin: 15px;
+}
+footer .foot-img {
+    width: 150px;
+    height:calc(100% - 20px);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin:0 0 0 10px ;
+    padding: 0;
+}
+.social-media img {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+.social-media img:hover {
+    transform: scale(1.1);
+}
+
+.newsletter h3 {
+    color: var(--darck-gold);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+.newsletter button {
+    padding: 10px 20px;
+    background-color: var(--darck-gold);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.newsletter button:hover {
+    background-color: #ff9900;
+}
+/* end section footer  */
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../images/logo 001.jpg" alt="logo">
+        <h1>Qasr El-Kababji</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="Barbecue.html">Dishes</a></li>
+            <li ><a href="menu.html">Menu</a></li>
+            <li><a href="staf.html">Qasr Family</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+     </header>
+     <!-- start story  -->
+     <div class="story-contaner">
+        <div class="story-box">
+            <img src="../images/family 1.jpg" alt="">
+        </div>
+        <div class="story-text">
+            <h3>Who is Ahmed El-Baz?</h3>
+            <p>
+
+                    Ahmed El-Baz is an Egyptian businessman and the founder of Qasr El-Kababji restaurants.
+
+                    About him:
+                    He started the project without any family experience in the restaurant industry.
+
+                    He relied on his passion for Egyptian cuisine and quality service to build a strong brand in the market.
+
+                    He began with a small restaurant and gradually expanded until it became Qasr El-Kababji.
+            </p>
+        </div>
+     </div>
+
+     <!-- start section footer  -->
+      <footer>
+        <div class="footer-links">
+            <a href="#contact">contact us</a>
+            <a href="#">Terms & conditions</a>
+            <a href="#">privacy policy</a>
+        </div>
+        <img class="foot-img" src="../images/logo 001.jpg" alt="">
+        <div class="social-media">
+            <a href="https://www.facebook.com/Elkbabgi/?locale=ar_AR"><img src="../images/facebook 2.png" alt="facebook"></a>
+            <a href="https://www.menuegypt.com"><img src="../images/twitter.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/qasrelkbabgi/"><img src="../images/instagram1.png" alt="Instagram"></a>
+            <a href="https://www.tiktok.com/@qasrelkbabgi"><img src="../images/tiktok.jpg" alt="Tiktok"></a>
+        </div>
+        <div class="newsletter">
+            <h3>Subscribe to our newsletter</h3>
+            <form action="#">
+                <input type="email" placeholder="enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+      </footer>
+</body>
+</html>
